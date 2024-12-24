@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.nagarro.tests.HomePageTest">
+        <methods>
+          <include name="testFlipkartLogoVisibility"/>
+          <include name="testBecomeSellerLink"/>
+          <include name="tearDownExtentReports"/>
+          <include name="tearDown"/>
+          <include name="testSearchBoxPlaceholderText"/>
+          <include name="initializeDriver"/>
+          <include name="setupExtentReports"/>
+        </methods>
+      </class> <!-- com.nagarro.tests.HomePageTest -->
+      <class name="com.nagarro.tests.LoginTest">
+        <methods>
+          <include name="tearDownExtentReports"/>
+          <include name="tearDown"/>
+          <include name="validLoginTest"/>
+          <include name="initializeDriver"/>
+          <include name="setupExtentReports"/>
+        </methods>
+      </class> <!-- com.nagarro.tests.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

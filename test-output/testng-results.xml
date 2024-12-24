@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="28" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-24T23:34:38 IST" name="Suite" finished-at="2024-12-24T23:36:36 IST" duration-ms="117956">
+    <groups>
+      <group name="regression">
+        <method signature="HomePageTest.testCartButtonVisibility()[pri:1, instance:com.nagarro.tests.HomePageTest@2bfc268b]" name="testCartButtonVisibility" class="com.nagarro.tests.HomePageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="HomePageTest.testCartButtonVisibility()[pri:1, instance:com.nagarro.tests.HomePageTest@2bfc268b]" name="testCartButtonVisibility" class="com.nagarro.tests.HomePageTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-12-24T23:34:38 IST" name="Test" finished-at="2024-12-24T23:36:36 IST" duration-ms="117956">
+      <class name="com.nagarro.tests.LoginTest">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.nagarro.tests.LoginTest@29e495ff]" started-at="2024-12-24T23:36:11 IST" name="initializeDriver" finished-at="2024-12-24T23:36:12 IST" duration-ms="1155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="createAccountTest()[pri:0, instance:com.nagarro.tests.LoginTest@29e495ff]" started-at="2024-12-24T23:36:12 IST" name="createAccountTest" description="Verify user is redirected to Create Account page with the correct message" finished-at="2024-12-24T23:36:16 IST" duration-ms="3646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.tests.LoginTest@29e495ff]" started-at="2024-12-24T23:36:16 IST" name="tearDown" finished-at="2024-12-24T23:36:16 IST" duration-ms="304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createAccountTest status=SUCCESS method=LoginTest.createAccountTest()[pri:0, instance:com.nagarro.tests.LoginTest@29e495ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.nagarro.tests.LoginTest@29e495ff]" started-at="2024-12-24T23:36:16 IST" name="initializeDriver" finished-at="2024-12-24T23:36:17 IST" duration-ms="1204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="invalidLoginTest()[pri:0, instance:com.nagarro.tests.LoginTest@29e495ff]" started-at="2024-12-24T23:36:17 IST" name="invalidLoginTest" description="Verify error message is displayed for invalid login" finished-at="2024-12-24T23:36:20 IST" duration-ms="2886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.tests.LoginTest@29e495ff]" started-at="2024-12-24T23:36:20 IST" name="tearDown" finished-at="2024-12-24T23:36:21 IST" duration-ms="243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLoginTest status=SUCCESS method=LoginTest.invalidLoginTest()[pri:0, instance:com.nagarro.tests.LoginTest@29e495ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.nagarro.tests.LoginTest@29e495ff]" started-at="2024-12-24T23:36:21 IST" name="initializeDriver" finished-at="2024-12-24T23:36:22 IST" duration-ms="1123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="validLoginTest()[pri:0, instance:com.nagarro.tests.LoginTest@29e495ff]" started-at="2024-12-24T23:36:22 IST" name="validLoginTest" description="Verify OTP message is displayed for valid login" finished-at="2024-12-24T23:36:30 IST" duration-ms="8719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.tests.LoginTest@29e495ff]" started-at="2024-12-24T23:36:30 IST" name="tearDown" finished-at="2024-12-24T23:36:31 IST" duration-ms="242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLoginTest status=SUCCESS method=LoginTest.validLoginTest()[pri:0, instance:com.nagarro.tests.LoginTest@29e495ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nagarro.tests.LoginTest -->
+      <class name="com.nagarro.tests.HomePageTest">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:34:38 IST" name="initializeDriver" finished-at="2024-12-24T23:34:41 IST" duration-ms="2322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="testCartButtonVisibility()[pri:1, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:34:41 IST" name="testCartButtonVisibility" description="Verify the cart button is visible on the home page" finished-at="2024-12-24T23:34:43 IST" duration-ms="2438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartButtonVisibility -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:34:43 IST" name="tearDown" finished-at="2024-12-24T23:34:43 IST" duration-ms="272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCartButtonVisibility status=SUCCESS method=HomePageTest.testCartButtonVisibility()[pri:1, instance:com.nagarro.tests.HomePageTest@2bfc268b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:34:43 IST" name="initializeDriver" finished-at="2024-12-24T23:34:45 IST" duration-ms="1215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="testNavigateToElectronicsCategory()[pri:2, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:34:45 IST" name="testNavigateToElectronicsCategory" finished-at="2024-12-24T23:34:47 IST" duration-ms="2330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateToElectronicsCategory -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:34:47 IST" name="tearDown" finished-at="2024-12-24T23:34:47 IST" duration-ms="253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNavigateToElectronicsCategory status=SUCCESS method=HomePageTest.testNavigateToElectronicsCategory()[pri:2, instance:com.nagarro.tests.HomePageTest@2bfc268b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:34:47 IST" name="initializeDriver" finished-at="2024-12-24T23:34:48 IST" duration-ms="1175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="testBecomeSellerLink()[pri:3, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:34:48 IST" name="testBecomeSellerLink" finished-at="2024-12-24T23:34:55 IST" duration-ms="6901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBecomeSellerLink -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:34:55 IST" name="tearDown" finished-at="2024-12-24T23:34:55 IST" duration-ms="259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBecomeSellerLink status=SUCCESS method=HomePageTest.testBecomeSellerLink()[pri:3, instance:com.nagarro.tests.HomePageTest@2bfc268b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:34:55 IST" name="initializeDriver" finished-at="2024-12-24T23:34:57 IST" duration-ms="1170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="testFlipkartLogoVisibility()[pri:4, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:34:57 IST" name="testFlipkartLogoVisibility" finished-at="2024-12-24T23:34:59 IST" duration-ms="2073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFlipkartLogoVisibility -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:34:59 IST" name="tearDown" finished-at="2024-12-24T23:34:59 IST" duration-ms="250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFlipkartLogoVisibility status=SUCCESS method=HomePageTest.testFlipkartLogoVisibility()[pri:4, instance:com.nagarro.tests.HomePageTest@2bfc268b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:34:59 IST" name="initializeDriver" finished-at="2024-12-24T23:35:00 IST" duration-ms="1033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="testFooterLinksVisibility()[pri:5, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:35:00 IST" name="testFooterLinksVisibility" finished-at="2024-12-24T23:35:02 IST" duration-ms="2098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFooterLinksVisibility -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:35:02 IST" name="tearDown" finished-at="2024-12-24T23:35:02 IST" duration-ms="254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFooterLinksVisibility status=SUCCESS method=HomePageTest.testFooterLinksVisibility()[pri:5, instance:com.nagarro.tests.HomePageTest@2bfc268b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:35:02 IST" name="initializeDriver" finished-at="2024-12-24T23:35:03 IST" duration-ms="1113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="testAddToCartFunctionality()[pri:6, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:35:03 IST" name="testAddToCartFunctionality" finished-at="2024-12-24T23:35:12 IST" duration-ms="8280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCartFunctionality -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:35:12 IST" name="tearDown" finished-at="2024-12-24T23:35:12 IST" duration-ms="246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddToCartFunctionality status=SUCCESS method=HomePageTest.testAddToCartFunctionality()[pri:6, instance:com.nagarro.tests.HomePageTest@2bfc268b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:35:12 IST" name="initializeDriver" finished-at="2024-12-24T23:35:13 IST" duration-ms="1124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="testSearchBoxPlaceholderText()[pri:7, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:35:13 IST" name="testSearchBoxPlaceholderText" description="Verify the search box has the correct placeholder text" finished-at="2024-12-24T23:35:15 IST" duration-ms="2122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchBoxPlaceholderText -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:35:15 IST" name="tearDown" finished-at="2024-12-24T23:35:15 IST" duration-ms="186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchBoxPlaceholderText status=SUCCESS method=HomePageTest.testSearchBoxPlaceholderText()[pri:7, instance:com.nagarro.tests.HomePageTest@2bfc268b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:35:15 IST" name="initializeDriver" finished-at="2024-12-24T23:35:16 IST" duration-ms="1064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="testCustomerCareLink()[pri:8, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:35:16 IST" name="testCustomerCareLink" description="Verify the functionality of 24 x7 Customer care link" finished-at="2024-12-24T23:35:20 IST" duration-ms="3144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomerCareLink -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:35:20 IST" name="tearDown" finished-at="2024-12-24T23:35:20 IST" duration-ms="245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCustomerCareLink status=SUCCESS method=HomePageTest.testCustomerCareLink()[pri:8, instance:com.nagarro.tests.HomePageTest@2bfc268b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:35:20 IST" name="initializeDriver" finished-at="2024-12-24T23:35:21 IST" duration-ms="1153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="testAdvertiseLink()[pri:9, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:35:21 IST" name="testAdvertiseLink" description="Verify the Advertise link functionality" finished-at="2024-12-24T23:35:25 IST" duration-ms="3904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdvertiseLink -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:35:25 IST" name="tearDown" finished-at="2024-12-24T23:35:25 IST" duration-ms="244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAdvertiseLink status=SUCCESS method=HomePageTest.testAdvertiseLink()[pri:9, instance:com.nagarro.tests.HomePageTest@2bfc268b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:35:25 IST" name="initializeDriver" finished-at="2024-12-24T23:35:26 IST" duration-ms="1213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="testRoundTripOption()[pri:10, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:35:26 IST" name="testRoundTripOption" description="Verify Round Trip option visibility after clicking on Flight Bookings" finished-at="2024-12-24T23:35:32 IST" duration-ms="5936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRoundTripOption -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:35:32 IST" name="tearDown" finished-at="2024-12-24T23:35:33 IST" duration-ms="240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRoundTripOption status=SUCCESS method=HomePageTest.testRoundTripOption()[pri:10, instance:com.nagarro.tests.HomePageTest@2bfc268b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:35:33 IST" name="initializeDriver" finished-at="2024-12-24T23:35:34 IST" duration-ms="1238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="testTermsOfUseLink()[pri:11, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:35:34 IST" name="testTermsOfUseLink" description="Verify the Terms of Use link and its navigation" finished-at="2024-12-24T23:35:37 IST" duration-ms="2912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTermsOfUseLink -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:35:37 IST" name="tearDown" finished-at="2024-12-24T23:35:37 IST" duration-ms="256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTermsOfUseLink status=SUCCESS method=HomePageTest.testTermsOfUseLink()[pri:11, instance:com.nagarro.tests.HomePageTest@2bfc268b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:35:37 IST" name="initializeDriver" finished-at="2024-12-24T23:35:38 IST" duration-ms="1019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="testGiftCardsLink()[pri:12, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:35:38 IST" name="testGiftCardsLink" description="Verify the Gift Cards link and its navigation" finished-at="2024-12-24T23:35:41 IST" duration-ms="3463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGiftCardsLink -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.tests.HomePageTest@2bfc268b]" started-at="2024-12-24T23:35:41 IST" name="tearDown" finished-at="2024-12-24T23:35:42 IST" duration-ms="286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGiftCardsLink status=SUCCESS method=HomePageTest.testGiftCardsLink()[pri:12, instance:com.nagarro.tests.HomePageTest@2bfc268b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nagarro.tests.HomePageTest -->
+      <class name="com.nagarro.base.BaseTest">
+        <test-method is-config="true" signature="setupExtentReports()[pri:0, instance:com.nagarro.base.BaseTest@3e6ef8ad]" started-at="2024-12-24T23:34:38 IST" name="setupExtentReports" finished-at="2024-12-24T23:34:38 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtentReports -->
+        <test-method is-config="true" signature="tearDownExtentReports()[pri:0, instance:com.nagarro.base.BaseTest@3e6ef8ad]" started-at="2024-12-24T23:36:36 IST" name="tearDownExtentReports" finished-at="2024-12-24T23:36:36 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownExtentReports -->
+      </class> <!-- com.nagarro.base.BaseTest -->
+      <class name="com.nagarro.tests.SearchTest">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.nagarro.tests.SearchTest@2f8dad04]" started-at="2024-12-24T23:35:42 IST" name="initializeDriver" finished-at="2024-12-24T23:35:43 IST" duration-ms="1134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="testDeliveryForInvalidPincode()[pri:0, instance:com.nagarro.tests.SearchTest@2f8dad04]" started-at="2024-12-24T23:35:43 IST" name="testDeliveryForInvalidPincode" description="Verify delivery message for an invalid pincode" finished-at="2024-12-24T23:35:50 IST" duration-ms="7385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeliveryForInvalidPincode -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.tests.SearchTest@2f8dad04]" started-at="2024-12-24T23:35:50 IST" name="tearDown" finished-at="2024-12-24T23:35:51 IST" duration-ms="263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeliveryForInvalidPincode status=SUCCESS method=SearchTest.testDeliveryForInvalidPincode()[pri:0, instance:com.nagarro.tests.SearchTest@2f8dad04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.nagarro.tests.SearchTest@2f8dad04]" started-at="2024-12-24T23:35:51 IST" name="initializeDriver" finished-at="2024-12-24T23:35:52 IST" duration-ms="1214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="testDeliveryForValidPincode()[pri:0, instance:com.nagarro.tests.SearchTest@2f8dad04]" started-at="2024-12-24T23:35:52 IST" name="testDeliveryForValidPincode" description="Verify delivery availability for a valid pincode" finished-at="2024-12-24T23:35:59 IST" duration-ms="7423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeliveryForValidPincode -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.tests.SearchTest@2f8dad04]" started-at="2024-12-24T23:35:59 IST" name="tearDown" finished-at="2024-12-24T23:35:59 IST" duration-ms="294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeliveryForValidPincode status=SUCCESS method=SearchTest.testDeliveryForValidPincode()[pri:0, instance:com.nagarro.tests.SearchTest@2f8dad04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.nagarro.tests.SearchTest@2f8dad04]" started-at="2024-12-24T23:35:59 IST" name="initializeDriver" finished-at="2024-12-24T23:36:01 IST" duration-ms="1189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="testInvalidSearchProduct()[pri:0, instance:com.nagarro.tests.SearchTest@2f8dad04]" started-at="2024-12-24T23:36:01 IST" name="testInvalidSearchProduct" description="Search for invalid product" finished-at="2024-12-24T23:36:05 IST" duration-ms="4008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidSearchProduct -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.tests.SearchTest@2f8dad04]" started-at="2024-12-24T23:36:05 IST" name="tearDown" finished-at="2024-12-24T23:36:05 IST" duration-ms="249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidSearchProduct status=SUCCESS method=SearchTest.testInvalidSearchProduct()[pri:0, instance:com.nagarro.tests.SearchTest@2f8dad04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.nagarro.tests.SearchTest@2f8dad04]" started-at="2024-12-24T23:36:05 IST" name="initializeDriver" finished-at="2024-12-24T23:36:07 IST" duration-ms="1145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="testSearchProduct(java.lang.String)[pri:0, instance:com.nagarro.tests.SearchTest@2f8dad04]" started-at="2024-12-24T23:36:07 IST" name="testSearchProduct" description="Search for valid product" data-provider="searchData" finished-at="2024-12-24T23:36:11 IST" duration-ms="4353" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Laptop]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchProduct -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.tests.SearchTest@2f8dad04]" started-at="2024-12-24T23:36:11 IST" name="tearDown" finished-at="2024-12-24T23:36:11 IST" duration-ms="248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchProduct status=SUCCESS method=SearchTest.testSearchProduct(java.lang.String)[pri:0, instance:com.nagarro.tests.SearchTest@2f8dad04] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nagarro.tests.SearchTest -->
+      <class name="com.nagarro.tests.GroceryPageTest">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:com.nagarro.tests.GroceryPageTest@41e1e210]" started-at="2024-12-24T23:36:31 IST" name="initializeDriver" finished-at="2024-12-24T23:36:32 IST" duration-ms="1234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method signature="testProductSearch()[pri:0, instance:com.nagarro.tests.GroceryPageTest@41e1e210]" started-at="2024-12-24T23:36:32 IST" name="testProductSearch" finished-at="2024-12-24T23:36:36 IST" duration-ms="4028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductSearch -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.nagarro.tests.GroceryPageTest@41e1e210]" started-at="2024-12-24T23:36:36 IST" name="tearDown" finished-at="2024-12-24T23:36:36 IST" duration-ms="258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProductSearch status=SUCCESS method=GroceryPageTest.testProductSearch()[pri:0, instance:com.nagarro.tests.GroceryPageTest@41e1e210] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nagarro.tests.GroceryPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
