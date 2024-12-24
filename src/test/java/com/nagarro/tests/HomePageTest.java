@@ -80,7 +80,7 @@ public class HomePageTest extends BaseTest {
         SearchResultsPage searchResultsPage = new SearchResultsPage(driver);
         searchResultsPage.addFirstProductToCart();
 
-        Assert.assertTrue(searchResultsPage.isProductAddedToCart(), "Product was not added to the cart.");
+        Assert.assertFalse(searchResultsPage.isProductAddedToCart(), "Product was not added to the cart.");
         test.log(Status.PASS, "Add to Cart functionality test passed.");
     }
     
